@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import AboutUs from "./components/AboutUs/AboutUs";
 import OurService from "./components/OurService/OurService";
-import FindADoctor from "./components/FindADoctor/FindADoctor";
+import FindDoctor from "./components/FindDoctor/FindDoctor";
 import News from "./components/News/News";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
@@ -27,8 +27,8 @@ function App() {
         <Route exact path="/ourService">
           <OurService />
         </Route>
-        <Route exact exact path="findADoctor">
-          <FindADoctor />
+        <Route exact path="/doctor">
+          <FindDoctor />
         </Route>
         <Route exact path="/news">
           <News />
