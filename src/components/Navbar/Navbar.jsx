@@ -19,7 +19,7 @@ function Navbar() {
                   />
                 </div>
                 <div>
-                  <h2>Azad care</h2>
+                  <h2>Azad Healthcare</h2>
                 </div>
               </div>
               <div className="hidden md:block">
