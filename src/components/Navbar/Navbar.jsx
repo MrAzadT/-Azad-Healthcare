@@ -134,7 +134,7 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  to="/Programming"
+                  to="/aboutUs"
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About Us
@@ -148,13 +148,13 @@ function Navbar() {
                 </Link>
 
                 <Link
-                  to="/contact"
+                  to="/doctor"
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Find a Doctor
                 </Link>
                 <Link
-                  to="/contact"
+                  to="/News"
                   className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   News

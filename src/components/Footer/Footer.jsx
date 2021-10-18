@@ -24,108 +24,113 @@ const Footer = () => {
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-md mb-3">
-                CATEGORIES
+                Departments
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    First Link
+                    Neurology
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Second Link
+                    Dental
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Third Link
+                    Nuclear Magnetic
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Fourth Link
+                    Surgical
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-red-300" href="/">
+                    Emergency Care
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-md mb-3">
-                CATEGORIES
+                Links
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    First Link
+                    Home
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Second Link
+                    About Us
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Third Link
+                    Our Service
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Fourth Link
+                    Find a Doctor
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-red-300" href="/">
+                    News
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-md mb-3">
-                CATEGORIES
+                Services
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    First Link
+                    Emergency Services
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Second Link
+                    Qualified Doctors
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Third Link
+                    Outdoors Checkup
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Fourth Link
+                    24 Hours Services
                   </a>
                 </li>
               </nav>
             </div>
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-bold text-white tracking-widest text-md mb-3">
-                CATEGORIES
+                Have a Questions?
               </h2>
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    First Link
+                    mrazadt@gmail.com
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Second Link
+                    01757355100
                   </a>
                 </li>
                 <li>
                   <a className="text-white hover:text-red-300" href="/">
-                    Third Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-red-300" href="/">
-                    Fourth Link
+                    Dhaka, Bangladesh
                   </a>
                 </li>
               </nav>
@@ -135,23 +140,23 @@ const Footer = () => {
         <div className="bg-gray-900">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-white text-sm text-center sm:text-left">
-              © 2020 Dev —
+              Copyright ©2021 —
               <a
                 href="https://twitter.com/knyttneve"
                 rel="noopener noreferrer"
                 className="text-gray-400 ml-1"
                 target="_blank"
               >
-                @Developer
+                All rights reserved
               </a>
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a href="/" className="text-gray-200">
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -161,9 +166,9 @@ const Footer = () => {
               <a href="/" className="ml-3 text-gray-200">
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -174,9 +179,9 @@ const Footer = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -184,13 +189,17 @@ const Footer = () => {
                   <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
                 </svg>
               </a>
-              <a href="/" className="ml-3 text-gray-200">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/azad-tamal-92502a204/"
+                className="ml-3 text-gray-200"
+              >
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="0"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="0"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >

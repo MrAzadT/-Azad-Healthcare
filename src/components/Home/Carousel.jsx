@@ -30,8 +30,7 @@ const Carousel = () => {
         spaceBetween={20}
         navigation
         pagination={{ clickable: true }}
-        onSlideChange={(e) => console.log(e.activeIndex, "slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={(swiper) => swiper}
       >
         <SwiperSlide>
           <div
@@ -56,7 +55,7 @@ const Carousel = () => {
               minHeight: "20rem",
             }}
           >
-            <h3y>Cox</h3y>
+            <h3>Cox</h3>
           </div>
         </SwiperSlide>
         <SwiperSlide>
