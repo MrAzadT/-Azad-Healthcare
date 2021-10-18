@@ -64,6 +64,20 @@ function Navbar() {
                   >
                     Contact Us
                   </Link>
+                  {/* ----------------------------- */}
+                  <Link
+                    to="/contact"
+                    className="text-white hover:bg-gray-700   hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Login
+                  </Link>
+                  <Link
+                    to="/contact"
+                    className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Logout
+                  </Link>
+                  {/* -------------------- */}
                 </div>
               </div>
             </div>
