@@ -4,7 +4,7 @@ const OurService = () => {
   return (
     <>
       <h1 className="text-5xl text-center mt-10 mb-5">Our Services</h1>
-      <hr className="border-2 h-2  border-gray-700 m-5 rounded-lg border-2" />
+      <hr className="border-2 h-2  border-gray-700 m-5 rounded-lg " />
       <section className="text-blueGray-700 bg-white mt-10">
         <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
           <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
