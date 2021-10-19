@@ -18,7 +18,9 @@ const Footer = () => {
               <span className="ml-3 text-xl text-white">Azad Healthcare</span>
             </a>
             <p className="mt-2 text-sm text-white">
-              Air plant banjo lyft occupy retro adaptogen indego
+              Our Vision – We strive to be a leader of healthcare innovation
+              that delivers the highest quality care while providing exceptional
+              patient experiences in a modern and inviting environment.
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
