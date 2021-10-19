@@ -1,53 +1,62 @@
-import Navbar from "./components/Navbar/Navbar";
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./components/Home/Home";
-import AboutUs from "./components/AboutUs/AboutUs";
-import OurService from "./components/OurService/OurService";
-import FindDoctor from "./components/FindDoctor/FindDoctor";
-import News from "./components/News/News";
-import ContactUs from "./components/ContactUs/ContactUs";
-import Footer from "./components/Footer/Footer";
-import NotFound from "./components/NotFound/NotFound";
-import Login from "./components/Login/Login";
+import Navbar from './components/Navbar/Navbar'
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Home from './components/Home/Home'
+import AboutUs from './components/AboutUs/AboutUs'
+import OurService from './components/OurService/OurService'
+import FindDoctor from './components/FindDoctor/FindDoctor'
+import News from './components/News/News'
+import ContactUs from './components/ContactUs/ContactUs'
+import Footer from './components/Footer/Footer'
+import NotFound from './components/NotFound/NotFound'
+import Login from './components/Login/Login'
+import Service from './components/Home/Service'
+import Signup from './components/Login/Signup'
+import PrivateRoute from './PrivateRoute/PrivateRoute'
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path='/'>
           <Home />
         </Route>
-        <Route exact path="/home">
+        <Route path='/home'>
           <Home />
         </Route>
-        <Route exact path="/aboutUs">
+        <Route path='/aboutUs'>
           <AboutUs />
         </Route>
-        <Route exact path="/ourService">
+        <Route path='/ourService'>
           <OurService />
         </Route>
-        <Route exact path="/doctor">
+        <PrivateRoute path='/doctor'>
           <FindDoctor />
-        </Route>
-        <Route exact path="/news">
+        </PrivateRoute>
+        <Route path='/news'>
           <News />
         </Route>
-        <Route exact path="/contact">
+        <Route path='/contact'>
           <ContactUs />
         </Route>
-        <Route exact path="/login">
+        <Route path='/login'>
           <Login />
         </Route>
+        <Route path='/signup'>
+          <Signup />
+        </Route>
+        <Route exact path='/service/:serviceDetails'>
+          <Service />
+        </Route>
 
-        <Route path="*">
+        <Route path='*'>
           <NotFound />
         </Route>
       </Switch>
       <Footer />
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

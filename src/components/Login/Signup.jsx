@@ -1,45 +1,27 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { Link, useHistory, useLocation } from 'react-router-dom'
-import { googleSignIn, loginWithEmailPassword } from '../../Firebase/login'
+import React, { useContext, useState } from 'react'
+import { Link } from 'react-router-dom'
+import { googleSignIn, signUpWithEmailPassword } from '../../Firebase/login'
 import { AuthContext } from '../../PrivateRoute/AuthProviderFirebase'
 
-const Login = () => {
-  const { currentUser, setCurrentUser } = useContext(AuthContext)
+const Signup = () => {
+  const { setCurrentUser } = useContext(AuthContext)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(email, password)
-    loginWithEmailPassword(email, password, setCurrentUser)
+    signUpWithEmailPassword(email, password, setCurrentUser)
   }
 
-  let history = useHistory()
-  let location = useLocation()
-
-  let { from } = location.state || { from: { pathname: '/' } }
-
-  useEffect(() => {
-    if (currentUser) {
-      history.replace(from)
-    }
-  }, [history, currentUser, from])
   return (
     <section className='flex flex-col md:flex-row h-screen items-center'>
-      {/* <div className="bg-indigo-600 hidden lg:block w-full md:w-1/2 xl:w-2/3 h-screen">
-        <img
-          src="https://source.unsplash.com/random"
-          alt=""
-          className="w-full h-full object-cover"
-        />
-      </div> */}
-
       <div
         className='bg-white w-full md:max-w-md lg:max-w-full md:mx-auto md:mx-0 md:w-1/2 xl:w-1/3 h-screen px-6 lg:px-16 xl:px-12
               flex items-center justify-center'
       >
         <div className='w-full h-100'>
           <h1 className='text-xl md:text-2xl font-bold leading-tight mt-12'>
-            Log in to your account
+            Create an account
           </h1>
 
           <form className='mt-6' onSubmit={handleSubmit}>
@@ -88,7 +70,7 @@ const Login = () => {
               className='w-full block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
                     px-4 py-3 mt-6'
             >
-              Sign in
+              Sign up
             </button>
           </form>
 
@@ -103,18 +85,18 @@ const Login = () => {
                 onClick={() => googleSignIn(setCurrentUser)}
                 className='ml-4'
               >
-                Log in with Google
+                Sign up with Google
               </span>
             </div>
           </button>
 
           <p className='mt-8'>
-            Need an account?{' '}
+            Already have an account?{' '}
             <Link
-              to='/signup'
+              to='/login'
               className='text-blue-500 hover:text-blue-700 font-semibold'
             >
-              Create an account
+              log in.
             </Link>
           </p>
         </div>
@@ -123,4 +105,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Signup
