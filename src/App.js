@@ -9,6 +9,7 @@ import News from "./components/News/News";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./components/NotFound/NotFound";
+import Login from "./components/Login/Login";
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
         <Route exact path="/contact">
           <ContactUs />
         </Route>
+        <Route exact path="/login">
+          <Login />
+        </Route>
+
         <Route path="*">
           <NotFound />
         </Route>

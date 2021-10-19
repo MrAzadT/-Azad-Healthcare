@@ -66,18 +66,18 @@ function Navbar() {
                   </Link>
                   {/* ----------------------------- */}
                   <Link
-                    to="/contact"
+                    to="/login"
                     className="text-white hover:bg-gray-700   hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Login
                   </Link>
                   <Link
-                    to="/contact"
+                    to="/logout"
                     className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Logout
                   </Link>
-                  {/* -------------------- */}
+                  {/* -------------------- ---------*/}
                 </div>
               </div>
             </div>
