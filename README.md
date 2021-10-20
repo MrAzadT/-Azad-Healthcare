@@ -1,4 +1,4 @@
-Azad Healthcare
+Site Name :  Azad Healthcare
 
 Live Link : https://azad-healthcare.web.app/
 
