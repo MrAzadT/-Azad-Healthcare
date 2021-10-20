@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <section className="text-gray-600 body-font relative">
-      <div className="absolute sm:hidden inset-0 bg-gray-300">
+      <div className="absolute  inset-0 bg-gray-300">
         <img
           className="w=80 h-screen   "
           src="https://res.cloudinary.com/abidazad/image/upload/v1634552901/pexels-gustavo-fring-4173251_zwlyyv.jpg"

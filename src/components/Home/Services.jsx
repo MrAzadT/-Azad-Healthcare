@@ -22,6 +22,7 @@ const Services = () => {
                 <p className="font-normal text-gray-700 mb-3">1. {item.p1}</p>
                 <p className="font-normal text-gray-700 mb-3">2. {item.p2}</p>
                 <p className="font-normal text-gray-700 mb-3">3. {item.p3}</p>
+                <p className="font-normal text-gray-700 mb-3">4. {item.p4}</p>
 
                 <Link to={`/service/${item.id}`}>
                   <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center">

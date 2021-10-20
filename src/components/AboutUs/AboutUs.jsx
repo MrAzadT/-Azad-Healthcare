@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <>
-      <div className="flex mt-5">
+      <div className="grid xl:grid-cols-1 gap-10 m-auto  md:grid-cols-2 grid-cols-1 max-w-6xl">
         <div className=" p-10">
           <h1 className="text-5xl ">Azad Healthcare</h1>
           <h3 className="text-3xl mt-3">GET A WORLD CLASS HEALTH SERVICE</h3>
@@ -20,7 +20,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div className="">
+        <div className="h-full ">
           <img
             className="h-4/5 m-auto "
             src="https://res.cloudinary.com/abidazad/image/upload/v1634556133/pexels-oles-kanebckuu-127873_eqbya6.jpg"

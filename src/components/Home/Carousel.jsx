@@ -41,9 +41,7 @@ const Carousel = () => {
               color: "#fff",
               minHeight: "20rem",
             }}
-          >
-            <h3>Cox</h3>
-          </div>
+          ></div>
         </SwiperSlide>
         <SwiperSlide>
           <div
@@ -54,9 +52,7 @@ const Carousel = () => {
               color: "#fff",
               minHeight: "20rem",
             }}
-          >
-            <h3>Cox</h3>
-          </div>
+          ></div>
         </SwiperSlide>
         <SwiperSlide>
           <div
@@ -67,9 +63,7 @@ const Carousel = () => {
               color: "#fff",
               minHeight: "20rem",
             }}
-          >
-            <h3>Cox</h3>
-          </div>
+          ></div>
         </SwiperSlide>
       </Swiper>
     </>
