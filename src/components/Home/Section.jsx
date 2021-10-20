@@ -2,73 +2,31 @@ import React from "react";
 
 const Section = () => {
   return (
-    <>
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
-        <article>
-          <h2 className="text-2xl font-extrabold text-gray-900">OUR BLOG</h2>
-          <section className="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
-            <article
-              className="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-              style={{
-                backgroundImage: `url("https://res.cloudinary.com/abidazad/image/upload/v1634664354/international-services-2x-3753028_0001_zielui.webp")`,
-              }}
-            >
-              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-              <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-                <h3 className="text-center">
-                  <a
-                    className="text-white text-2xl font-bold text-center"
-                    href="/"
-                  >
-                    <span className="absolute inset-0"></span>
-                    The trusted leader in healthcare worldwide
-                  </a>
-                </h3>
-              </div>
-            </article>
-            <article
-              className="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-              style={{
-                backgroundImage: `url("https://res.cloudinary.com/abidazad/image/upload/v1634664354/devaml2109septemberchallengetilead520x360mr_do7be4.webp")`,
-              }}
-            >
-              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-              <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-                <h3 className="text-center">
-                  <a
-                    className="text-white text-2xl font-bold text-center"
-                    href="/"
-                  >
-                    <span className="absolute inset-0"></span>
-                    $1 Million Challenge Opportunity Triples the Power of Your
-                    Gift
-                  </a>
-                </h3>
-              </div>
-            </article>
-            <article
-              className="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl  transition duration-300 ease-in-out"
-              style={{
-                backgroundImage: `url("https://res.cloudinary.com/abidazad/image/upload/v1634664353/coronavirus-map-tile-520x360_a7tygb.webp")`,
-              }}
-            >
-              <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-              <div className="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-                <h3 className="text-center">
-                  <a
-                    className="text-white text-2xl font-bold text-center"
-                    href="/"
-                  >
-                    <span className="absolute inset-0"></span>
-                    Track the latest COVID-19 trends.
-                  </a>
-                </h3>
-              </div>
-            </article>
-          </section>
-        </article>
-      </section>
-    </>
+    <section className="text-blueGray-700 bg-white mt-20">
+      <div className="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row lg:px-28">
+        <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
+          <h1 className="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font">
+            Forward. For all of us.
+          </h1>
+          <p className="mb-8 text-base leading-relaxed text-left text-blueGray-600 " />
+          As we focus on the future of medicine and what it means for health
+          care, our communities and your family, we invite you to take part in
+          our progress.
+          <div className="flex flex-col justify-center lg:flex-row">
+            <button className="flex mt-4 items-center px-6 py-2  font-semibold text-white transition duration-500 ease-in-out transform bg-primary rounded-lg hover:bg-primary focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
+              Move forward with us
+            </button>
+          </div>
+        </div>
+        <div className="w-full h-full lg:w-1/3 lg:max-w-lg md:w-1/2">
+          <img
+            className="object-cover object-center rounded-lg "
+            alt="hero"
+            src="https://res.cloudinary.com/abidazad/image/upload/v1634713416/pexels-jonas-mohamadi-1416736_wdss3t.jpg"
+          />
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className=" my-10 mt-20">
       <h1 className="text-center text-5xl ">OUR SERVICES & FACILITIES</h1>
-      <hr className="p-1 max-w-2xl m-auto mt-4 h2 border-1 border-gray-700 bg-gray-700 rounded-lg  " />
+      <hr className="p-1 max-w-2xl m-auto mt-4 h2 border-1 border-bg-primary bg-primary rounded-lg  " />
       <div className="grid xl:grid-cols-3 gap-10 m-auto mt-14 md:grid-cols-2 grid-cols-1 max-w-6xl">
         {newData.map((item) => (
           <div className="max-w-lg mx-auto">
@@ -25,7 +25,7 @@ const Services = () => {
                 <p className="font-normal text-gray-700 mb-3">4. {item.p4}</p>
 
                 <Link to={`/service/${item.id}`}>
-                  <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center">
+                  <button className="text-white bg-primary hover:bg-secondary focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center">
                     Read more
                   </button>
                 </Link>

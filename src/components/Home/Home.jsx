@@ -1,4 +1,5 @@
 import React from "react";
+import Blog from "./Blog";
 import Carousel from "./Carousel";
 import Section from "./Section";
 import Services from "./Services";
@@ -17,6 +18,7 @@ const Home = () => {
       </p>
       <Carousel />
       <Services />
+      <Blog />
       <Section />
     </div>
   );
